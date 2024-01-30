@@ -1,107 +1,82 @@
-  
- 
-  @font-face { 
-    font-family: SeafordBold; 
-    src: url(./font/SeafordBold.ttf); 
-    font-weight: normal; 
-    }    
-    
-  @font-face { 
-    font-family: SeafordRg; 
-    src: url(./font/SeafordRg.ttf); 
-    font-weight: normal; 
-    }
-
-    .container{
-      width: 1000px;
-      background-color: #fff;
-      margin: auto;
-
-    }
- h1 {
-    color: navy;
-    font-family: 'SeafordBold';
-    text-align: center;
-  }
-
-  h2 {
-    font-family: SeafordRg;
-    color: navy;
+body {
+  background-color: #a9a9a9;
 }
 
-  p.myP{
-    color: brown;
-    text-align: justify;
-   text-justify: inter-word;
-  }
+h1{
+  font-family:verdana;
+  font-size: 35px;
+}
 
-  p{
-    font-family: SeafordRg;
-    color: black;
-  }
+h2{
+  font-family:verdana;
+  font-size: 15px;
+}
 
-  p.myP:hover{background-color: #ddd;}
+h3{
+  font-family: verdana;
+  font-size: 23px;
+}
 
+h4{
+  font-family: verdana;
+  font-size: 23px;
+}
 
- body {
-        font-family: SeafordRg;
-        background-color:white;
-      }
+h5{
+  font-family: verdana;
+  font-size: 23px;
+}
 
+button{
+  border-radius: 5px;
+  background-color: #a9a9a9;
+  border: 0;
+  width: 90px;
+  height: 35px;
+  color: white;
+  padding: 5px;
+}
 
-
-td {
-    text-align: center;
-  }
-
-
-
-
-  ol:hover{background-color: #ddd;}
-
-ul:hover{background-color: #ddd;}
-
-ol { 
-    list-style: none; 
-    counter-reset: num; 
-} 
-
-ol li { 
-    counter-increment: num; 
-}  
-  ol li::before { 
-    content:counter(num) "."; 
-    color: blue;     
-} 
-
-
-#mytable {
-    font-family: SeafordRg;
-    border-collapse: collapse;
-    width: 30%;
-  }
-  
-  #mytable td, #mytable th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  #mytable tr:nth-child(even){background-color: #f2f2f2;}
-  
-  #mytable tr:hover {background-color: #ddd;}
-  
-  #mytable th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: grey;
-    color: white;
-  }
-
-  label { display: inline-block; width: 70px; text-align: right; }
- 
- img.myImage{
-  height: 140px;
-  width: 150px;
+img{
   border-radius: 50%;
- }
+}
+.container{
+  background-color: white;
+  width: 1000px;
+  margin: auto;
+}
+.jacob {
+  height: 200px;
+  width: 200 px;
+}
+
+.header {
+  background-color: #ce0505;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.content{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 20px;
+  display: flex;
+}
+
+.image{
+  width: 310px;
+}
+
+.text{
+  width: 650px;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 1%;
+  background-color:#ce0505;
+  color: white;
+  padding-top: 1%;
+}
